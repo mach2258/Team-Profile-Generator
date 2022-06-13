@@ -6,6 +6,8 @@ const Intern = require('./lib/Intern')
 const Intern = require('./lib/Intern')
 const Manager = require('./lib/Manager')
 
+const makeHTML = require('./src/generateHTML')
+
 
 
 const staff= [];
@@ -50,6 +52,14 @@ function spawnEmployee() {
             if(response.add == true)
             {spawnEmployee();}
             else
-            {spawnHTML}
+            {spawnHTML()}
         })
 }
+
+const spawnHTML = () => {
+    fs.writeFile("./staff.html", makeHTML(staff), (err) => {
+        err ? console.log("Error: The following program has not worked") : console.log(" A HTML has spawned")
+    })
+}
+
+spawnManager();
