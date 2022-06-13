@@ -1,0 +1,23 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mach2258/Team-Profile-Generator.git"
+  },
+  "author": "Erich Elste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mach2258/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/mach2258/Team-Profile-Generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4"
+  }
+}
