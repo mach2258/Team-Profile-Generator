@@ -57,8 +57,7 @@ function makeHTML(team){
     {
         let employee = team[i];
         let role = employee.getRole();
-console.log(employee)
-console.log(role)
+
         switch(role)
         {
             case "Manager":
@@ -74,7 +73,7 @@ console.log(role)
             break;
         }
     }
-console.log(managerArray)
+
 return `<!doctype html>
 <html lang="en">
 <head>
