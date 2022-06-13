@@ -3,7 +3,6 @@ const inquirer = require('inquirer')
 
 const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
-const Intern = require('./lib/Intern')
 const Manager = require('./lib/Manager')
 
 const makeHTML = require('./src/generateHTML')
@@ -46,7 +45,7 @@ function spawnEmployee() {
             }
             else if(response.role == "Engineer") {
                 
-                let engineer = new Enginner ( response.name, response.employee, response.email, response.github)
+                let engineer = new Engineer ( response.name, response.employee, response.email, response.github)
                 staff.push(engineer)
             }
             if(response.add == true)
