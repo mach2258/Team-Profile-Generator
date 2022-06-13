@@ -79,12 +79,12 @@ return `<!doctype html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href = "./FinalHTML/reset.css" rel="stylesheet">
-    <link href = "./FinalHTML/style.css" rel="stylesheet">
+    <link href = "./src/reset.css" rel="stylesheet">
+    <link href = "./src/style.css" rel="stylesheet">
     <title>Employees</title>
 </head>
 <header>
-    <h1>My Team</h1>
+    <h1>My Staff</h1>
 </header>
 <body>
     <section>
